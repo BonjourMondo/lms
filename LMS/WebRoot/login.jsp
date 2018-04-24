@@ -17,8 +17,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   	
   <body>
   	<div id="header">
-  		<div class="title">TeamTank</div>
-  		<div class="subtitle">LMS for SCORM 1.2</div>
+  		<div class="title">TeamTalk</div>
+  		<div class="subtitle">Learning Platform</div>
   	</div>
   	
   	<!-- 表单主体 -->
@@ -58,10 +58,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			
 	  	</div>
 	  	<!-- login end -->
-  	</div>
-  	<!-- 表单主体end -->
-  	<div id="footer">
-  		<span><p class="footer-text">Copyright &copy; 2014 TeamTank Group 刘斌&卢文泉</p></span>
   	</div>
   </body>
 </html>

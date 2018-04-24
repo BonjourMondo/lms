@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<zwmsco label="系统设置：单屏FLASH">
+  <sysset0 isfull="1" issession_time="1" isdatamode="0" iscrypt="1"></sysset0>
+  <sysset1 lmssite="1" showmenu="2" autorun="1" nextplay="1" skiplast="1" seeks="0" showper="0"  isprogress="2" isturn="0"></sysset1>
+  <sysset2 backsave="1" mosave="0" prosave="1" interactions="0"></sysset2>
+  <sysset3 ski="1" col="1" help="0" full="1"></sysset3>
+</zwmsco>
+
+
+<!---  
+1、isfull：缩放控制，0：禁止缩放，1：可缩放，有完整播放界面，2：可缩放，只有播放控制面板。3：可缩放，只有播放控制面板而且自动隐藏。
+    关于这个功能的使用，建议先调整主程序的场景大小和SWF或FLV大小达到最佳匹配，以保证画面不变形。注意：1、三分屏无此功能。2、如果系
+    统界面是通过外部载入方式，则2和3的功能与1的功能是一样的。
+2、issession_time：课程学习时间设置，0：课程时间和在LMS上显示的会话时间不匹配，此时一进入课程，计时就开始，而且时间是累加的，所以
+    这个时间值比较大，难以反映真实的学习时间。1：课程时间和在LMS上显示的会话时间完全匹配，此时在LMS上显示的会话时间就是你学习本课程
+	的时间，不会多一秒或少一秒。注意：设置为0时，下面的showper的值也为0，以免在时间显示上产生误会。
+3、isdatamode：scorm data 数据模式，这个参数用于解决国内LMS的兼容问题，值为0或1。
+4、iscrypt：数据包压缩上传方式。
+5、v_ws和v_hs：三分屏的视频宽高比，取值在4/3或16/9，以保证视频不变形。
+6、v_height：视频的高度，参照的视频宽高比，可以计算出转换窗口时视频的宽度。
+7、lmssite：课件是否运行在LMS平台环境，值为0时可作普通课件挂在非LMS平台上运行。
+8、showmenu：菜单显示控制，0：不显示菜单，1：显示菜单，如果菜单上只有一行时会自动隐藏，2：任何情况下都显示菜单，三分屏无此功能。
+9、autorun：进入系统后自动播放课件。
+10、nextplay：自动转到下一章节播放。
+11、skiplast：是否跳到上一次跟踪学习点上继续学习，只适用于FLASH手工制作的sco。
+12、seeks：能否拖动进度条越过跟踪学习点进行播放。
+13、showper：是否弹出学习进度提示窗口，0：不弹出，1：整个播放过程弹出，2：已完成学习时才弹出。
+14、isprogress：在菜单图标上显示本章节的学习进度和状态，0：不显示；1：只显示完成状态；2：显示进度和完成状态。
+15、isturn：对三分屏大小窗口转换控制。
+16、backsave：是否在退出课件系统时回存数据到LMS。
+17、mosave：mouse离开课件窗口时是否回存，建议不要使用此功能。
+18、prosave：在播放过程，根据学习进度是否主动回存数据到LMS。
+19、interactions：提交测试题相关数据（cmi.interactions）到LMS，国内有的平台不支持。
+20、ski：是否换肤。
+21、col：是否调色。
+22、help：是否显示系统帮助窗口。
+23、full：设置是否可以使用全屏模式。
+24、about：为客户打包课件时，显示客户的版权信息。
+有问题请联系QQ：1141790834， http://weibo.com/zwmscorm
+-->
+

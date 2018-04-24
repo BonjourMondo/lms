@@ -6,7 +6,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 %>
 <jsp:include page="common.jsp"></jsp:include>
 <head>
-	<title>LMS for SCORM 1.2</title>
+	<title>Learning Platform</title>
     <meta name="description" content="">
 	<meta name="keywords" content="" />
 	<meta charset="utf-8">

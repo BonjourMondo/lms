@@ -7,7 +7,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <html>
   <head>
     <base href="<%=basePath%>">
-    
+
     <title>启动界面</title>
 	<link rel="stylesheet" href="<%=basePath %>play/images/playframe.css" type="text/css">
 	<script language="JavaScript">
@@ -20,7 +20,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	}
 	</script>
   </head>
-  
+
   <body id="tt_left" marginwidth="0" marginheight="0">
   <div style="position: absolute;left:300px;top:200px;font-size:50;height:900px;">
     <a href="javascript:opencourse()"><font>点击启动课程</font></a> <br>

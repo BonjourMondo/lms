@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:imsmd="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" identifier="MYCOURSEZWMSCORM01F08A6C1B3C8FCS000000600" version="1.2" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd  http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd  http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <adlcp:location>mta/mta_tcs.xml</adlcp:location>
+  </metadata>
+  <organizations default="ORG-MYCOURSEZWMSCORM01F08A6C1B3C8FCS000000600">
+    <organization identifier="ORG-MYCOURSEZWMSCORM01F08A6C1B3C8FCS000000600" structure="hierarchical">
+      <title> Up to Communicate [SCORM_1.2 Standard] </title>
+      <item identifier="T0" isvisible="true">
+        <title> Course content </title>
+        <item identifier="T1" identifierref="sco01" isvisible="true">
+          <title> 1、Upward Communication Needs Empathy </title>
+          <metadata>
+            <schema>ADL SCORM</schema>
+            <schemaversion>1.2</schemaversion>
+            <adlcp:location>mta/mta_s01.xml</adlcp:location>
+          </metadata>
+        </item>
+        <item identifier="T2" identifierref="sco02" isvisible="true">
+          <title> 2、Grasp The Scale Of Communication </title>
+          <metadata>
+            <schema>ADL SCORM</schema>
+            <schemaversion>1.2</schemaversion>
+            <adlcp:location>mta/mta_s02.xml</adlcp:location>
+          </metadata>
+        </item>
+        <item identifier="T3" identifierref="sco03" isvisible="true">
+          <title> 3、Try To Figure Out The Intent Of The Leadership </title>
+          <metadata>
+            <schema>ADL SCORM</schema>
+            <schemaversion>1.2</schemaversion>
+            <adlcp:location>mta/mta_s03.xml</adlcp:location>
+          </metadata>
+        </item>
+        <item identifier="T4" identifierref="sco04" isvisible="true">
+          <title> 4、Plainspoken </title>
+          <metadata>
+            <schema>ADL SCORM</schema>
+            <schemaversion>1.2</schemaversion>
+            <adlcp:location>mta/mta_s04.xml</adlcp:location>
+          </metadata>
+        </item>
+        <item identifier="T5" identifierref="sco05" isvisible="true">
+          <title> 5、Resilience </title>
+          <metadata>
+            <schema>ADL SCORM</schema>
+            <schemaversion>1.2</schemaversion>
+            <adlcp:location>mta/mta_s05.xml</adlcp:location>
+          </metadata>
+        </item>
+        <item identifier="T6" identifierref="sco06" isvisible="true">
+          <title> 6、Confident Communication </title>
+          <metadata>
+            <schema>ADL SCORM</schema>
+            <schemaversion>1.2</schemaversion>
+            <adlcp:location>mta/mta_s06.xml</adlcp:location>
+          </metadata>
+        </item>
+        <item identifier="T7" identifierref="sco07" isvisible="true">
+          <title> 7、Empathy </title>
+          <metadata>
+            <schema>ADL SCORM</schema>
+            <schemaversion>1.2</schemaversion>
+            <adlcp:location>mta/mta_s07.xml</adlcp:location>
+          </metadata>
+        </item>
+        <item identifier="T8" identifierref="sco08" isvisible="true">
+          <title> 8、Course Test </title>
+          <metadata>
+            <schema>ADL SCORM</schema>
+            <schemaversion>1.2</schemaversion>
+            <adlcp:location>mta/mta_s08.xml</adlcp:location>
+          </metadata>
+          <adlcp:masteryscore>80</adlcp:masteryscore>
+          <adlcp:maxtimeallowed>00:05:00</adlcp:maxtimeallowed>
+          <adlcp:timelimitaction>continue,message</adlcp:timelimitaction>
+          <adlcp:datafromlms>course test</adlcp:datafromlms>
+        </item>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="sco01" type="webcontent" href="sco1.htm" adlcp:scormtype="sco">
+      <file href="sco1.htm" />
+      <file href="sco/s1.swf" />
+      <dependency identifierref="dep01" />
+    </resource>
+    <resource identifier="sco02" type="webcontent" href="sco2.htm" adlcp:scormtype="sco">
+      <file href="sco2.htm" />
+      <file href="sco/s2.swf" />
+      <dependency identifierref="dep01" />
+    </resource>
+    <resource identifier="sco03" type="webcontent" href="sco3.htm" adlcp:scormtype="sco">
+      <file href="sco3.htm" />
+      <file href="sco/s3.swf" />
+      <dependency identifierref="dep01" />
+    </resource>
+    <resource identifier="sco04" type="webcontent" href="sco4.htm" adlcp:scormtype="sco">
+      <file href="sco4.htm" />
+      <file href="sco/s4.swf" />
+      <dependency identifierref="dep01" />
+    </resource>
+    <resource identifier="sco05" type="webcontent" href="sco5.htm" adlcp:scormtype="sco">
+      <file href="sco5.htm" />
+      <file href="sco/s5.swf" />
+      <dependency identifierref="dep01" />
+    </resource>
+    <resource identifier="sco06" type="webcontent" href="sco6.htm" adlcp:scormtype="sco">
+      <file href="sco6.htm" />
+      <file href="sco/s6.swf" />
+      <dependency identifierref="dep01" />
+    </resource>
+    <resource identifier="sco07" type="webcontent" href="sco7.htm" adlcp:scormtype="sco">
+      <file href="sco7.htm" />
+      <file href="sco/s7.swf" />
+      <dependency identifierref="dep01" />
+    </resource>
+    <resource identifier="sco08" type="webcontent" href="sco8.htm" adlcp:scormtype="sco">
+      <file href="sco8.htm" />
+      <file href="sco/s8.swf" />
+      <dependency identifierref="dep01" />
+    </resource>
+    <resource identifier="dep01" adlcp:scormtype="asset" type="webcontent">
+      <file href="crossdomain.xml" />
+      <file href="pub/course.xml" />
+      <file href="pub/sysset.xml" />
+      <file href="pub/intro.swf" />
+      <file href="pub/js/swfobject.js" />
+      <file href="pub/js/zwm_scorm.js" />
+    </resource>
+  </resources>
+</manifest>
+

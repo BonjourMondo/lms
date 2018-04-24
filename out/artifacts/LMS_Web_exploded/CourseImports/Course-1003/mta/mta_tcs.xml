@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:ext="ila_mdextensions"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd">
+  <general>
+    <title>
+      <langstring> 向上沟通 </langstring>
+    </title>
+    <catalogentry>
+      <catalog>mycourse</catalog>
+      <entry>
+        <langstring>2011-09-13</langstring>
+      </entry>
+    </catalogentry>
+    <language>zh-cn</language>
+    <description>
+      <langstring> 期望通过本次学习交流，使学员了解向上沟通的艺术、原则与方法技巧，以利于在工作中进行有效地进行向上沟通，提高工作效率。 </langstring>
+    </description>
+    <keyword>
+      <langstring> 向上沟通 </langstring>
+    </keyword>
+	<keyword>
+      <langstring> 揣摩 </langstring>
+    </keyword>
+	<keyword>
+      <langstring> 应变 </langstring>
+    </keyword>
+  </general>
+  <lifecycle>
+    <version>
+      <langstring>1.1</langstring>
+    </version>
+    <status>
+      <source>
+        <langstring xml:lang="x-none">LOMv1.0</langstring>
+      </source>
+      <value>
+        <langstring xml:lang="x-none">Final</langstring>
+      </value>
+    </status>
+    <contribute>
+      <role>
+        <source>
+          <langstring xml:lang="x-none">LOMv1.0</langstring>
+        </source>
+        <value>
+          <langstring xml:lang="x-none">Author</langstring>
+        </value>
+      </role>
+      <centity>
+        <vcard>BEGIN:vCard ORG:ADL Co-Lab END:vCard</vcard>
+      </centity>
+      <date>
+        <datetime>2011-09-13</datetime>
+      </date>
+    </contribute>
+  </lifecycle>
+  <metametadata>
+    <metadatascheme>ADL SCORM 1.2</metadatascheme>
+    <language>zh-cn</language>
+  </metametadata>
+  <technical>
+    <format>text/html</format>
+    <size>200000</size>
+    <location type="URI">sco1.htm</location>
+    <requirement>
+      <type>
+        <source>
+          <langstring xml:lang="x-none">LOMv1.0</langstring>
+        </source>
+        <value>
+          <langstring xml:lang="x-none">Browser</langstring>
+        </value>
+      </type>
+      <name>
+        <source>
+          <langstring xml:lang="x-none">LOMv1.0</langstring>
+        </source>
+        <value>
+          <langstring xml:lang="x-none">Microsoft Internet Explorer</langstring>
+        </value>
+      </name>
+      <minimumversion>8.0</minimumversion>
+    </requirement>
+    <duration>
+      <datetime>00:21:00</datetime>
+    </duration>
+  </technical>
+  <educational>
+    <learningresourcetype>
+      <source>
+        <langstring xml:lang="x-none">LOMv1.0</langstring>
+      </source>
+      <value>
+        <langstring xml:lang="x-none">Index</langstring>
+      </value>
+    </learningresourcetype>
+    <typicallearningtime>
+      <datetime>00:21:00</datetime>
+    </typicallearningtime>
+  </educational>
+  <rights>
+    <cost>
+      <source>
+        <langstring xml:lang="x-none">LOMv1.0</langstring>
+      </source>
+      <value>
+        <langstring xml:lang="x-none">no</langstring>
+      </value>
+    </cost>
+    <copyrightandotherrestrictions>
+      <source>
+        <langstring xml:lang="x-none">LOMv1.0</langstring>
+      </source>
+      <value>
+        <langstring xml:lang="x-none">no</langstring>
+      </value>
+    </copyrightandotherrestrictions>
+    <description>
+      <langstring>mycourse</langstring>
+    </description>
+  </rights>
+  <classification>
+    <purpose>
+      <source>
+        <langstring xml:lang="x-none">LOMv1.0</langstring>
+      </source>
+      <value>
+        <langstring xml:lang="x-none">Educational Objective</langstring>
+      </value>
+    </purpose>
+    <description>
+      <langstring>mycourse</langstring>
+    </description>
+    <keyword>
+      <langstring>course</langstring>
+    </keyword>
+  </classification>
+</lom>
+

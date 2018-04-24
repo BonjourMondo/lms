@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inheritJdk="true">
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="ADLParser.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/LMS/WebRoot/WEB-INF/lib/ADLParser.jar!/"/>
+	</lib>
+	<lib name="cmidatamodel.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/LMS/WebRoot/WEB-INF/lib/cmidatamodel.jar!/"/>
+	</lib>
+	<lib name="commons-beanutils-1.8.3.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/LMS/WebRoot/WEB-INF/lib/commons-beanutils-1.8.3.jar!/"/>
+	</lib>
+	<lib name="commons-collections-3.2.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/LMS/WebRoot/WEB-INF/lib/commons-collections-3.2.1.jar!/"/>
+	</lib>
+	<lib name="commons-lang-2.4.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/LMS/WebRoot/WEB-INF/lib/commons-lang-2.4.jar!/"/>
+	</lib>
+	<lib name="commons-logging-1.1.3.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/LMS/WebRoot/WEB-INF/lib/commons-logging-1.1.3.jar!/"/>
+	</lib>
+	<lib name="dwr.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/LMS/WebRoot/WEB-INF/lib/dwr.jar!/"/>
+	</lib>
+	<lib name="ezmorph-1.0.6.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/LMS/WebRoot/WEB-INF/lib/ezmorph-1.0.6.jar!/"/>
+	</lib>
+	<lib name="jsmartcom_zh_CN.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/LMS/WebRoot/WEB-INF/lib/jsmartcom_zh_CN.jar!/"/>
+	</lib>
+	<lib name="jso.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/LMS/WebRoot/WEB-INF/lib/jso.jar!/"/>
+	</lib>
+	<lib name="json-lib-2.4-jdk15.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/LMS/WebRoot/WEB-INF/lib/json-lib-2.4-jdk15.jar!/"/>
+	</lib>
+	<lib name="jstl-1.2.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/LMS/WebRoot/WEB-INF/lib/jstl-1.2.jar!/"/>
+	</lib>
+	<lib name="mysql-connector-java-5.1.7-bin.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/LMS/WebRoot/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar!/"/>
+	</lib>
+	<lib name="sqljdbc4.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/LMS/WebRoot/WEB-INF/lib/sqljdbc4.jar!/"/>
+	</lib>
+	<lib name="xerces.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/LMS/WebRoot/WEB-INF/lib/xerces.jar!/"/>
+	</lib>
+	<levels>
+		<level name="Java EE 6-Java EE 6" value="project"/>
+	</levels>
+</component>

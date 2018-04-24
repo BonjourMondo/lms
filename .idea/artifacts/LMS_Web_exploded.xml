@@ -1,0 +1,30 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="LMS:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/LMS_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="LMS/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="LMS" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="ADLParser.jar" module-name="LMS" />
+          <element id="library" level="module" name="cmidatamodel.jar" module-name="LMS" />
+          <element id="library" level="module" name="commons-beanutils-1.8.3.jar" module-name="LMS" />
+          <element id="library" level="module" name="commons-collections-3.2.1.jar" module-name="LMS" />
+          <element id="library" level="module" name="commons-lang-2.4.jar" module-name="LMS" />
+          <element id="library" level="module" name="commons-logging-1.1.3.jar" module-name="LMS" />
+          <element id="library" level="module" name="dwr.jar" module-name="LMS" />
+          <element id="library" level="module" name="ezmorph-1.0.6.jar" module-name="LMS" />
+          <element id="library" level="module" name="jsmartcom_zh_CN.jar" module-name="LMS" />
+          <element id="library" level="module" name="jso.jar" module-name="LMS" />
+          <element id="library" level="module" name="json-lib-2.4-jdk15.jar" module-name="LMS" />
+          <element id="library" level="module" name="jstl-1.2.jar" module-name="LMS" />
+          <element id="library" level="module" name="mysql-connector-java-5.1.7-bin.jar" module-name="LMS" />
+          <element id="library" level="module" name="sqljdbc4.jar" module-name="LMS" />
+          <element id="library" level="module" name="xerces.jar" module-name="LMS" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

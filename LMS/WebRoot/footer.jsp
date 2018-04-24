@@ -13,7 +13,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
         <div class="container">
         	<div class="row">
             	<div class="col-md-12">
-                	Copyright © 2014 TeamTank Group 刘斌&卢文泉
+
                 </div>
             </div>
         </div>

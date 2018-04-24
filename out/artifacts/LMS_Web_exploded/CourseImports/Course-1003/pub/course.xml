@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<zwmsco label="向上沟通">
+	<sco1 label="1、向上沟通需要同理心" swfurl="sco/s1.swf" scotype="f" swf_width="800" swf_height="600"></sco1>
+    <sco2 label="2、把握沟通的尺度" swfurl="sco/s2.swf" scotype="f" swf_width="800" swf_height="600"></sco2>
+    <sco3 label="3、揣摩领导的意图" swfurl="sco/s3.swf" scotype="f" swf_width="800" swf_height="600"></sco3>
+    <sco4 label="4、直言不讳" swfurl="sco/s4.swf" scotype="f" swf_width="800" swf_height="600"></sco4>
+    <sco5 label="5、应变能力" swfurl="sco/s5.swf" scotype="f" swf_width="800" swf_height="600"></sco5>
+    <sco6 label="6、自信沟通" swfurl="sco/s6.swf" scotype="f" swf_width="800" swf_height="600"></sco6>
+    <sco7 label="7、换位思考" swfurl="sco/s7.swf" scotype="f" swf_width="800" swf_height="600"></sco7>
+    <sco8 label="8、课程测试" swfurl="sco/s8.swf" scotype="f" swf_width="800" swf_height="600" passmax="80" nst="1" ></sco8>
+</zwmsco>
+
+<!--- 
+注意：如果平台要求媒体文件和系统文件、配置文件分开放在不同的服务器上。如本例：课件zip包的sco目录所有媒体文件放在媒体服务器，而课件包内的系统文件、配置文件等都放在课件管理服务器上，
+      这种情形就必须修改pub/course.xml的flvurl和swfurl标签，否则系统因找不到媒体文件而无法播放。
+      修改方法：
+      1、解压课件zip包。
+      2、假设媒体服务器地址是www.aaa.com：在媒体服务器上新建一个目录xxx，把课件包解压，将sco目录拷贝到刚才新建的xxx目录内，这样媒体文件的实际地址是："www.aaa.com/xxx/sco/"。你必须验证此
+         地址是正确的并能让课件服务器访问到。一些平台会自动产生一个链接的地址，请参考平台维护手册。
+      3、修改flvurl和swfurl标签：原来的flvurl为"sco/s1.f4v"，现在修改为"www.aaa.com/xxx/sco/s1.f4v",原来的swfurl为"sco/s1.swf"，现在修改为"www.aaa.com/xxx/sco/s1.swf",按些方法将
+         所有flvurl和swfurl标签都修改好。
+      4、修改imsmanifestxml配置文件：将file href="sco/xx.swf" />和<file href="sco/xx.f4v" />等和媒体文件相关的标签全部删除，保存。如不修改imsmanifestxml，有些平台可能导入时会失败。
+      5、删除课件包内的sco目录，将剩下的所有文件用winrar打包成zip格式并导入课件管理服务器。
+  
+ccurl：本小节字幕文件，如果此字幕文件名与之对应的SWF同名，可省略。
+nst：测试多少次显示答案，这个参数只针对本系统自动生成的测试题。
+passmax：测试通过分数，当本小节是测试题时必须设置一个具体的数。
+scotype：sco类型，a---articulate生成的sco，c---Adobe Captivate生成的sco，f---FLASH手工制作的sco。如果省略，系统会自动设为f。
+无论是swfurl还是flvurl，如果和系统不同域，则swfurl或flvurl必须修改成其所在的具体的域地址，这种情况在三分屏课件上多一些。本系统可跨域
+相互访问，不存在安全沙箱问题。
+swf_width：SWF实际宽度，单视屏无此参数。
+swf_height：SWF实际高度，单视屏无此参数。
+有问题请联系QQ：1141790834， http://weibo.com/zwmscorm
+-->
+
+
